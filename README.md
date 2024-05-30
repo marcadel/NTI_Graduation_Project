@@ -8,7 +8,6 @@ This project involves setting up a comprehensive DevOps environment using a vari
 
 1. *Terraform*
     - Create an EKS Cluster with two nodes, an auto-scaling group, and an ELB.
-    - Set up an RDS instance and store its username and password in AWS Secret Manager.
     - Provision an EC2 instance to run Jenkins.
     - Configure daily snapshots of the Jenkins instance using AWS Backup Service.
     - Save ELB access logs to an AWS S3 Bucket.
